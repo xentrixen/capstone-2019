@@ -151,6 +151,7 @@ public class CitizenDrawer extends AppCompatActivity
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        //Test123
         Intent intent = new Intent(this,SendReportActivity.class);
         startActivity(intent);
     }
